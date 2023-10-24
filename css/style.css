@@ -33,10 +33,6 @@ footer {
     flex-wrap: wrap;
 }
 
-.height {
-    height: 580px;
-}
-
 .col-25 {
     width: 25%;
     display: flex;
@@ -60,6 +56,14 @@ footer {
 .d-flex-start {
     justify-content: start;
     align-items: center;
+}
+
+.padding-lft {
+    padding-left: 10px;
+}
+
+.padding-rght {
+    padding-right: 10px;
 }
 
 .d-flex-center {
