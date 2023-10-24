@@ -29,6 +29,10 @@ footer {
     display: flex;
 }
 
+.margin-bttm {
+    margin-bottom: 50px;
+}
+
 .d-flex-wrap {
     flex-wrap: wrap;
 }
@@ -70,6 +74,8 @@ footer {
 .padding-top {
     padding-top: 15px;
 }
+
+
 
 .d-flex-center {
     justify-content: center;
@@ -157,13 +163,101 @@ a {
     font-size: 25px;
 }
 
-.show-red {
-    color: red;
+.show-black {
+    color: black;
     display: block;
 }
 
-.hidden-black {
-    color: black;
+.hidden-red {
+    color: red;
     display: none;
 }
+
+.square:hover .hidden-red {
+    display: block;
+}
+
+.square:hover .show-black {
+    display: none;
+}
+
+.sale {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    padding: 2px 10px;
+    position: absolute;
+    bottom: 100px;
+}
+
+.sustainability {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: green;
+    color: white;
+    padding: 2px 10px;
+    position: absolute;
+
+}
+
+.position-1  {
+    bottom: 100px;
+    left: 65px;
+}
+
+.position-2  {
+    bottom: 100px;
+}
+
+.position-3 {
+    bottom: 10px;
+    left: 10px;
+}
+
+.position-4 {
+    bottom: 10px;
+    right: 300px;
+}
+
+.position-5 {
+    bottom: 10px;
+    right: 285px;
+}
+
+.brand {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.object {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+}
+
+.price {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    position: absolute;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.red {
+    color: red;
+}
+
+.black {
+    color: black;
+    text-decoration: line-through;
+}
+
+
+
 
