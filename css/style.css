@@ -11,6 +11,13 @@ header {
     height: 60px;
 }
 
+footer {
+    background-color: black;
+    height: 60px;
+    width: 100%;
+}
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -20,7 +27,14 @@ header {
 .row {
     width: 100%;
     display: flex;
-    
+}
+
+.d-flex-wrap {
+    flex-wrap: wrap;
+}
+
+.height {
+    height: 580px;
 }
 
 .col-25 {
@@ -31,6 +45,11 @@ header {
 .col-50 {
     width: 50%;
     display: flex;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+    padding: 50px 10px;
 }
 
 .start {
@@ -67,4 +86,24 @@ header {
 i {
     color: white;
     padding: 0 5px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.show {
+     display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.product:hover .hidden {
+    display: block;
+}
+
+.product:hover .show {
+    display: none;
 }
